@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D629DB2C2194B705004BAD0E /* Noble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB2A2194B705004BAD0E /* Noble.cpp */; };
+		D629DB2F2194B712004BAD0E /* Protector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB2D2194B712004BAD0E /* Protector.cpp */; };
+		D629DB322194B71B004BAD0E /* Lord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB302194B71B004BAD0E /* Lord.cpp */; };
+		D629DB352194B796004BAD0E /* PersonWithStrengthToFight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB332194B796004BAD0E /* PersonWithStrengthToFight.cpp */; };
+		D629DB382194B7AC004BAD0E /* Wizard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB362194B7AC004BAD0E /* Wizard.cpp */; };
+		D629DB3B2194B7B5004BAD0E /* Warrior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB392194B7B5004BAD0E /* Warrior.cpp */; };
+		D629DB3E2194B7D2004BAD0E /* Archer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB3C2194B7D2004BAD0E /* Archer.cpp */; };
+		D629DB412194B7DD004BAD0E /* Swordsman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629DB3F2194B7DD004BAD0E /* Swordsman.cpp */; };
+		D69DA29F218DFE23002AEE74 /* hw06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D69DA29E218DFE23002AEE74 /* hw06.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D69DA299218DFE23002AEE74 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D629DB2A2194B705004BAD0E /* Noble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Noble.cpp; sourceTree = "<group>"; };
+		D629DB2B2194B705004BAD0E /* Noble.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Noble.hpp; sourceTree = "<group>"; };
+		D629DB2D2194B712004BAD0E /* Protector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Protector.cpp; sourceTree = "<group>"; };
+		D629DB2E2194B712004BAD0E /* Protector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Protector.hpp; sourceTree = "<group>"; };
+		D629DB302194B71B004BAD0E /* Lord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lord.cpp; sourceTree = "<group>"; };
+		D629DB312194B71B004BAD0E /* Lord.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lord.hpp; sourceTree = "<group>"; };
+		D629DB332194B796004BAD0E /* PersonWithStrengthToFight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PersonWithStrengthToFight.cpp; sourceTree = "<group>"; };
+		D629DB342194B796004BAD0E /* PersonWithStrengthToFight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PersonWithStrengthToFight.hpp; sourceTree = "<group>"; };
+		D629DB362194B7AC004BAD0E /* Wizard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wizard.cpp; sourceTree = "<group>"; };
+		D629DB372194B7AC004BAD0E /* Wizard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wizard.hpp; sourceTree = "<group>"; };
+		D629DB392194B7B5004BAD0E /* Warrior.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Warrior.cpp; sourceTree = "<group>"; };
+		D629DB3A2194B7B5004BAD0E /* Warrior.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Warrior.hpp; sourceTree = "<group>"; };
+		D629DB3C2194B7D2004BAD0E /* Archer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Archer.cpp; sourceTree = "<group>"; };
+		D629DB3D2194B7D2004BAD0E /* Archer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Archer.hpp; sourceTree = "<group>"; };
+		D629DB3F2194B7DD004BAD0E /* Swordsman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Swordsman.cpp; sourceTree = "<group>"; };
+		D629DB402194B7DD004BAD0E /* Swordsman.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Swordsman.hpp; sourceTree = "<group>"; };
+		D69DA29B218DFE23002AEE74 /* homework6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework6; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69DA29E218DFE23002AEE74 /* hw06.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hw06.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69DA298218DFE23002AEE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69DA292218DFE23002AEE74 = {
+			isa = PBXGroup;
+			children = (
+				D69DA29D218DFE23002AEE74 /* homework6 */,
+				D69DA29C218DFE23002AEE74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69DA29C218DFE23002AEE74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69DA29B218DFE23002AEE74 /* homework6 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69DA29D218DFE23002AEE74 /* homework6 */ = {
+			isa = PBXGroup;
+			children = (
+				D69DA29E218DFE23002AEE74 /* hw06.cpp */,
+				D629DB2B2194B705004BAD0E /* Noble.hpp */,
+				D629DB2A2194B705004BAD0E /* Noble.cpp */,
+				D629DB2E2194B712004BAD0E /* Protector.hpp */,
+				D629DB2D2194B712004BAD0E /* Protector.cpp */,
+				D629DB342194B796004BAD0E /* PersonWithStrengthToFight.hpp */,
+				D629DB332194B796004BAD0E /* PersonWithStrengthToFight.cpp */,
+				D629DB312194B71B004BAD0E /* Lord.hpp */,
+				D629DB302194B71B004BAD0E /* Lord.cpp */,
+				D629DB372194B7AC004BAD0E /* Wizard.hpp */,
+				D629DB362194B7AC004BAD0E /* Wizard.cpp */,
+				D629DB3A2194B7B5004BAD0E /* Warrior.hpp */,
+				D629DB392194B7B5004BAD0E /* Warrior.cpp */,
+				D629DB3D2194B7D2004BAD0E /* Archer.hpp */,
+				D629DB3C2194B7D2004BAD0E /* Archer.cpp */,
+				D629DB402194B7DD004BAD0E /* Swordsman.hpp */,
+				D629DB3F2194B7DD004BAD0E /* Swordsman.cpp */,
+			);
+			path = homework6;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69DA29A218DFE23002AEE74 /* homework6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69DA2A2218DFE23002AEE74 /* Build configuration list for PBXNativeTarget "homework6" */;
+			buildPhases = (
+				D69DA297218DFE23002AEE74 /* Sources */,
+				D69DA298218DFE23002AEE74 /* Frameworks */,
+				D69DA299218DFE23002AEE74 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = homework6;
+			productName = homework6;
+			productReference = D69DA29B218DFE23002AEE74 /* homework6 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69DA293218DFE23002AEE74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nahom Molla";
+				TargetAttributes = {
+					D69DA29A218DFE23002AEE74 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D69DA296218DFE23002AEE74 /* Build configuration list for PBXProject "homework6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D69DA292218DFE23002AEE74;
+			productRefGroup = D69DA29C218DFE23002AEE74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69DA29A218DFE23002AEE74 /* homework6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69DA297218DFE23002AEE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D629DB3E2194B7D2004BAD0E /* Archer.cpp in Sources */,
+				D629DB3B2194B7B5004BAD0E /* Warrior.cpp in Sources */,
+				D629DB2F2194B712004BAD0E /* Protector.cpp in Sources */,
+				D629DB2C2194B705004BAD0E /* Noble.cpp in Sources */,
+				D629DB352194B796004BAD0E /* PersonWithStrengthToFight.cpp in Sources */,
+				D629DB322194B71B004BAD0E /* Lord.cpp in Sources */,
+				D629DB412194B7DD004BAD0E /* Swordsman.cpp in Sources */,
+				D629DB382194B7AC004BAD0E /* Wizard.cpp in Sources */,
+				D69DA29F218DFE23002AEE74 /* hw06.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D69DA2A0218DFE23002AEE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D69DA2A1218DFE23002AEE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D69DA2A3218DFE23002AEE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D69DA2A4218DFE23002AEE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69DA296218DFE23002AEE74 /* Build configuration list for PBXProject "homework6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69DA2A0218DFE23002AEE74 /* Debug */,
+				D69DA2A1218DFE23002AEE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69DA2A2218DFE23002AEE74 /* Build configuration list for PBXNativeTarget "homework6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69DA2A3218DFE23002AEE74 /* Debug */,
+				D69DA2A4218DFE23002AEE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69DA293218DFE23002AEE74 /* Project object */;
+}
